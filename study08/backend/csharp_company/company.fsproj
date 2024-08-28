@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="dataaccess\MemberDAO.cs" />
+    <None Include="dataaccess\ProductDAO.cs" />
+    <None Include="dataaccess\DataroomDAO.cs" />
+    <None Include="dataaccess\QnaDAO.cs" />
+    <None Include="dataaccess\BoardDAO.cs" />
+    <None Include="company.csproj" />
+    <None Include="Startup.cs" />
+    <None Include="models\EmailRequest.cs" />
+    <None Include="models\Member.cs" />
+    <None Include="models\Product.cs" />
+    <None Include="models\Dataroom.cs" />
+    <None Include="models\Qna.cs" />
+    <None Include="models\Board.cs" />
+    <Compile Include="Models/ErrorViewModel.fs" />
+    <None Include="controllers\EmailController.cs" />
+    <None Include="controllers\MemberController.cs" />
+    <None Include="controllers\ProductController.cs" />
+    <None Include="controllers\DataroomController.cs" />
+    <None Include="controllers\QnaController.cs" />
+    <None Include="controllers\BoardsController.cs" />
+    <None Include="controllers\HomeController.cs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="services\EmailService.cs" />
+    <None Include="services\MemberService.cs" />
+    <None Include="services\ProductService.cs" />
+    <None Include="services\DataroomService.cs" />
+    <None Include="services\QnaService.cs" />
+    <None Include="services\BoardService.cs" />
+    <None Include="Program.cs" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.7.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.7" />
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+</Project>

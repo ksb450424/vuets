@@ -1,0 +1,35 @@
+{
+  "name": "company",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3500",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.13",
+    "autoprefixer": "^10.x.x",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mariadb": "^3.3.1",
+    "mysql2": "^3.10.3",
+    "next": "14.2.5",
+    "nodemailer": "^6.9.14",
+    "postcss": "^8.x.x",
+    "react": "^18",
+    "react-dom": "^18",
+    "sequelize": "^6.37.3",
+    "tailwindcss": "^3.x.x"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.39",
+    "sequelize-cli": "^6.6.2",
+    "tailwindcss": "^3.4.6"
+  }
+}

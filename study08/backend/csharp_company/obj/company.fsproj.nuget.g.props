@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kkt09\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\kkt09\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.6.2\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.6.2\build\Swashbuckle.AspNetCore.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\kkt09\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgSwashbuckle_AspNetCore Condition=" '$(PkgSwashbuckle_AspNetCore)' == '' ">C:\Users\kkt09\.nuget\packages\swashbuckle.aspnetcore\6.6.2</PkgSwashbuckle_AspNetCore>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\kkt09\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation Condition=" '$(PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation)' == '' ">C:\Users\kkt09\.nuget\packages\microsoft.aspnetcore.mvc.razor.runtimecompilation\8.0.7</PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation>
+    <PkgMicrosoft_AspNetCore_Mvc_NewtonsoftJson Condition=" '$(PkgMicrosoft_AspNetCore_Mvc_NewtonsoftJson)' == '' ">C:\Users\kkt09\.nuget\packages\microsoft.aspnetcore.mvc.newtonsoftjson\8.0.7</PkgMicrosoft_AspNetCore_Mvc_NewtonsoftJson>
+    <PkgMailKit Condition=" '$(PkgMailKit)' == '' ">C:\Users\kkt09\.nuget\packages\mailkit\4.7.1.1</PkgMailKit>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\kkt09\.nuget\packages\fsharp.core\8.0.301</PkgFSharp_Core>
+  </PropertyGroup>
+</Project>
